@@ -1,0 +1,30 @@
+/* styles.css (ou votre fichier de styles principal) */
+
+.flex {
+    display: flex !important;
+  }
+  
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  
+  .items-center {
+    align-items: center !important ;
+  }
+  
+  .h-full {
+    height: 100vh !important;
+  }
+
+  h1 {
+    color: #fff;
+    text-shadow:  black;
+    text-align: center;
+  }
+  
+  .with-background {
+    background: url('src\attachments\background.png') no-repeat center center fixed;
+    background-size: cover;
+
+  }
+  

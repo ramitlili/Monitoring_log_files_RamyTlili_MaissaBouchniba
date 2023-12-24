@@ -1,0 +1,33 @@
+nav {
+  background-color: #fff;
+  padding: 10px;
+  position: relative;
+  z-index: 2; /* Assurez-vous que le menu est au-dessus de l'iframe */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centrer les éléments du menu horizontalement */
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #a3cce9; /* Changez la couleur au survol selon votre préférence */
+}
+
+a:active {
+  color: #0077CC; /* Changez la couleur au survol selon votre préférence */
+  background-color: #fff;
+}
